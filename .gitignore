@@ -1,26 +1,28 @@
 # Python
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
+*.pyd
 
 # Virtual Environment
+.venv/
 venv/
-.env/
 
-# VS Code
-.vscode/
+# Playwright
+playwright-report/
+test-results/
 
 # Environment
 .env
 
-# Logs
-*.log
-
-# Database
-*.db
+# VSCode
+.vscode/
 
 # macOS
 .DS_Store
 
-# Windows
-Thumbs.db
+# Logs
+*.log
+
+# Data
+*.sqlite3
