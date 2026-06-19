@@ -1,9 +1,8 @@
-from core.agent import Agent
+from application.services.agent_service import AgentService
 
 
 def main():
-    agent = Agent()
-    agent.run()
+    AgentService().run()
 
 
 if __name__ == "__main__":
