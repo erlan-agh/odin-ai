@@ -1,0 +1,64 @@
+[
+  {
+    "site": "galxe",
+    "action": "login",
+    "status": "success"
+  },
+  {
+    "tool": "mcp__plugin_playwright_playwright__browser_navigate",
+    "args": {
+      "url": "https://www.google.com"
+    }
+  },
+  {
+    "tool": "mcp__plugin_playwright_playwright__browser_snapshot",
+    "args": {}
+  },
+  {
+    "tool": "goto",
+    "args": {
+      "url": "https://google.com"
+    }
+  },
+  {
+    "tool": "goto",
+    "args": {
+      "url": "https://www.google.com/search?q=OpenAI"
+    }
+  },
+  {
+    "tool": "screenshot",
+    "args": {
+      "filename": "openai.png"
+    }
+  },
+  {
+    "tool": "type",
+    "args": {
+      "placeholder": "Search",
+      "text": "OpenAI"
+    }
+  },
+  {
+    "tool": "wait",
+    "args": {
+      "seconds": 2
+    }
+  },
+  {
+    "tool": "google_search",
+    "args": {
+      "text": "OpenAI"
+    }
+  },
+  {
+    "tool": "finish",
+    "args": {}
+  },
+  {
+    "tool": "goto",
+    "args": {
+      "url": "https://app.galxe.com"
+    }
+  }
+]
